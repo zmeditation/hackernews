@@ -10,7 +10,7 @@ import (
 
 	"github.com/zmeditation/hackernews/graph/generated"
 	"github.com/zmeditation/hackernews/graph/model"
-	"github.com/zmeditation/hackernews/internal/links"
+	"github.com/zmeditation/hackernews/internal/links/links"
 )
 
 // func (r *mutationResolver) CreateLink(ctx context.Context, input model.NewLink) (*model.Link, error) {
