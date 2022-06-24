@@ -23,4 +23,5 @@ require (
 	github.com/kshvakov/clickhouse v1.3.4 // indirect
 	github.com/openzipkin/zipkin-go v0.1.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.4.5
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 )

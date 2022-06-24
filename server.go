@@ -8,6 +8,7 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
+	auth "github.com/zmeditation/hackernews/internal/auth"
 	database "github.com/zmeditation/hackernews/internal/pkg/db/migrations/mysql"
 
 	"github.com/zmeditation/hackernews/graph"
@@ -23,6 +24,7 @@ func main() {
 	}
 
 	router := chi.NewRouter()
+	router.Use(auth.Middleware())
 
 	database.InitDB()
 	defer database.CloseDB()
