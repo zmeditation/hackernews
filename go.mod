@@ -8,8 +8,10 @@ require (
 	github.com/99designs/gqlgen v0.17.10
 	github.com/cockroachdb/cockroach-go v0.0.0-20181001143604-e0a95dfd547c // indirect
 	github.com/cznic/ql v1.2.0 // indirect
+	github.com/go-chi/chi v1.5.4 // indirect
 	github.com/go-ini/ini v1.39.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
+	github.com/golang-migrate/migrate v3.5.4+incompatible // indirect
 	github.com/golang-migrate/migrate/v4 v4.15.2 // indirect
 	github.com/golang/lint v0.0.0-20180702182130-06c8688daad7 // indirect
 	github.com/google/go-github v17.0.0+incompatible // indirect

@@ -1,4 +1,4 @@
-package main
+package hackernews
 
 import (
 	"log"
@@ -7,8 +7,11 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/zmeditation/hackernews/graph"
-	"github.com/zmeditation/hackernews/graph/generated"
+	"github.com/go-chi/chi"
+	hackernews "github.com/zmeditation/hackernews"
+	database "github.com/zmeditation/hackernews/internal/pkg/db/migrations/mysql"
+	// "github.com/zmeditation/hackernews/graph"
+	// "github.com/zmeditation/hackernews/graph/generated"
 )
 
 const defaultPort = "8080"
