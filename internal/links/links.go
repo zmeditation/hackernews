@@ -3,7 +3,7 @@ package links
 import (
 	"log"
 
-	database "github.com/zmeditation/hackernews/internal/pkg/db/mysql"
+	database "github.com/zmeditation/hackernews/internal/pkg/db/migrations/mysql"
 	"github.com/zmeditation/hackernews/internal/users"
 )
 
