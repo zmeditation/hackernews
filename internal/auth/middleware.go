@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/glyphack/go-graphql-hackernews/internal/users"
-	"github.com/glyphack/go-graphql-hackernews/pkg/jwt"
+	"github.com/zmeditation/hackernews/internal/users"
+	"github.com/zmeditation/hackernews/pkg/jwt"
 )
 
 var userCtxKey = &contextKey{"user"}
