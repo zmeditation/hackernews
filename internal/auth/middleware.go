@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/zmeditation/hackernews/internal/pkg/jwt"
 	"github.com/zmeditation/hackernews/internal/users"
-	"github.com/zmeditation/hackernews/pkg/jwt"
 )
 
 var userCtxKey = &contextKey{"user"}
